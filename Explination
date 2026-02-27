@@ -1,1 +1,6 @@
-
+Worst Case Time Complexity (O(nlogn)):
+We are taking each element in the array and counting how many times it appears using an unordered_map. 
+Then we store all the elements along with their frequencies into a vector of pairs. 
+Next, we sort this vector in descending order based on their frequencies. A
+fter sorting, we take the first k elements from the vector since they have the highest frequencies and push them into result. 
+Finally, result is returned.
